@@ -14,13 +14,15 @@ public class BinarySearch {
             }   
         }
         return -1;
-
-
     }
     public static void main(String[] args) {
-        int number[] = {1 ,2 ,3 ,4 ,5 ,6, 7};
-        int key = 2;
-        System.out.println("The Index of the number is : "+binaryTree(number, key));
+        int number[] = {1 ,2 ,3 ,14 ,5 ,6, 7};
+        int key = 1;
+        if(binaryTree(number, key) == -1){
+            System.out.println("You choose wrong number");
+        }else{
+            System.out.println("The Index of the number is : "+binaryTree(number, key));
+        }
         
     }
 
