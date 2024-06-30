@@ -1,0 +1,6 @@
+step 1 : create a method in which use we use for loop with one argument name is numbet[];
+step 2: In for loop try to add conditon if number[i] > largestNumber;
+step 3: use assignment operator to add number[i] = largestNumber;
+step 4 : then return largeNumber
+step 5: Call this function in man method with arr the name of the array is number[];
+step 6: finish;
